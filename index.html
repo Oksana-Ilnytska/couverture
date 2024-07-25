@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обкладинка книги</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+        }
+        .cover {
+            width: 400px;
+            height: 600px;
+            background: url('sunset.jpg') no-repeat center center;
+            background-size: cover;
+            position: relative;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 0;
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .series {
+            font-size: 1.2em;
+            margin: 20px 0;
+            position: absolute;
+            top: 80px;
+            width: 100%;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        .author {
+            font-size: 1.2em;
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <div class="title">3 одного гнізда соколята</div>
+        <div class="series">Життя на уламках імперій</div>
+        <div class="author">Ольга Ільницька</div>
+    </div>
+</body>
+</html>
